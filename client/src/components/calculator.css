@@ -1,0 +1,25 @@
+.calculator-form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(20px,auto);
+    width: 100px;
+}
+
+
+.cols{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(20px,auto);
+    
+}
+
+
+.px50{
+    width: 50px;
+}
+
+.floatright{
+    float: right;
+}
