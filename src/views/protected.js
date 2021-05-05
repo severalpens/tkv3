@@ -31,7 +31,7 @@ const Protected = () => {
   return (
     <div className="container">
       <h1>Protected API Call</h1>
-      <p>/api/messages/protected</p>
+      <p>/api/messages/protected-message</p>
       <div
         className="btn-group mt-5"
         role="group"
