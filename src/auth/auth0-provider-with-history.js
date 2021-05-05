@@ -4,9 +4,9 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 const Auth0ProviderWithHistory = ({ children }) => {
   const history = useHistory();
-  const domain = process.env.REACT_APP_AUTH0_DOMAIN;
-  const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
-  const audience = process.env.REACT_APP_AUTH0_AUDIENCE;
+  const domain = "severalpens.au.auth0.com";
+  const clientId = "3N9O8O3zSlg4YktFCgShKYlxDOELJxbe";
+  const audience = "https://tokenvortex.com";
 
   const onRedirectCallback = (appState) => {
     history.push(appState?.returnTo || window.location.pathname);

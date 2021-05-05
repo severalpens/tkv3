@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const Protected = () => {
   const [message, setMessage] = useState("");
-  const serverUrl = process.env.REACT_APP_SERVER_URL;
+  const serverUrl = "https://paulcollins.dev:3000";
   const { getAccessTokenSilently } = useAuth0();
 
 
