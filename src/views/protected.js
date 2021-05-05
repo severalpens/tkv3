@@ -12,7 +12,7 @@ const Protected = () => {
       const token = await getAccessTokenSilently();
 
       const response = await fetch(
-        `${serverUrl}/api/messages/protected-message`,
+        `${serverUrl}/messages/protected-message`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
