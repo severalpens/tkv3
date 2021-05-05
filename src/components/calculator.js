@@ -7,7 +7,7 @@ const Calculator = () => {
   const [secondNumber, setSecondNumber] = useState(2);
   const [operator, setOperator] = useState("+");
   const [results, setResults] = useState(null);
-  const serverUrl = "https://paulcollins.dev:3000";
+  const serverUrl = "https://paulcollins.dev/api";
   const { getAccessTokenSilently,isAuthenticated } = useAuth0();
 
   useEffect(async () => {

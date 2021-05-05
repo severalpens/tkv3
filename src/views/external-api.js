@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const ExternalApi = () => {
   const [message, setMessage] = useState("");
-  const serverUrl = "https://paulcollins.dev:3000";
+  const serverUrl = "https://paulcollins.dev/api";
 
   const { getAccessTokenSilently } = useAuth0();
 
