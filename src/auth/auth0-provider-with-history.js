@@ -5,8 +5,12 @@ import { Auth0Provider } from "@auth0/auth0-react";
 const Auth0ProviderWithHistory = ({ children }) => {
   const history = useHistory();
   const domain = "severalpens.au.auth0.com";
-  const clientId = "3N9O8O3zSlg4YktFCgShKYlxDOELJxbe";
-  const audience = "https://tokenvortex.com";
+
+  //const clientId = "3N9O8O3zSlg4YktFCgShKYlxDOELJxbe";
+  const clientId = "SjQtS0UVMVhpOK3xau0sQLEjpokinynB";
+
+  //const audience = "https://tokenvortex.com";
+  const audience = "https://paulcollins.dev";
 
   const onRedirectCallback = (appState) => {
     history.push(appState?.returnTo || window.location.pathname);
