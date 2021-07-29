@@ -4,7 +4,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 const Auth0ProviderWithHistory = ({ children }) => {
   const history = useHistory();
-  const domain = "severalpens.au.auth0.com";
+  
+  const domain = "severalpens.auth0.com";
 
   //const clientId = "3N9O8O3zSlg4YktFCgShKYlxDOELJxbe";
   const clientId = "3CiD2wxM0wDkZabrjZ4dfRSxUVhRCLMJ";
