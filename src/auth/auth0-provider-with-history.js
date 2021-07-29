@@ -7,7 +7,7 @@ const Auth0ProviderWithHistory = ({ children }) => {
   const domain = "severalpens.au.auth0.com";
 
   //const clientId = "3N9O8O3zSlg4YktFCgShKYlxDOELJxbe";
-  const clientId = "SjQtS0UVMVhpOK3xau0sQLEjpokinynB";
+  const clientId = "3CiD2wxM0wDkZabrjZ4dfRSxUVhRCLMJ";
 
   //const audience = "https://tokenvortex.com";
   const audience = "https://paulcollins.dev";
