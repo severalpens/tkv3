@@ -33,10 +33,10 @@ var jwtCheck = jwt({
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 5,
-    jwksUri: 'https://severalpens.au.auth0.com/.well-known/jwks.json'
+    jwksUri: 'https://severalpens.auth0.com/.well-known/jwks.json'
   }),
   audience: 'https://paulcollins.dev',
-  issuer: 'https://severalpens.au.auth0.com/',
+  issuer: 'https://severalpens.auth0.com/',
   algorithms: ['RS256']
 });
 
