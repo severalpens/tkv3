@@ -35,7 +35,7 @@ var jwtCheck = jwt({
     jwksRequestsPerMinute: 5,
     jwksUri: 'https://severalpens.au.auth0.com/.well-known/jwks.json'
   }),
-  audience: 'https://tokenvortex.com',
+  audience: 'https://paulcollins.dev',
   issuer: 'https://severalpens.au.auth0.com/',
   algorithms: ['RS256']
 });
